@@ -27,7 +27,7 @@ export default function NavigationBar() {
       {/*Menu for Desktop*/}
       <NavbarContent className="hidden space-x-2 sm:flex" justify="center">
         <NavbarItem>
-          <Link  color="foreground" Link href="Challanges"  >
+          <Link  color="foreground" Link href="/Challanges"  >
             Challanges
           </Link>
         </NavbarItem>
@@ -52,17 +52,17 @@ export default function NavigationBar() {
 
         </NavbarItem> */}
         <NavbarItem>
-          <Link color="foreground" Link href="Internship"  >
+          <Link color="foreground" Link href="/Internship"  >
             Internship
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" Link href="Projects" >
+          <Link color="foreground" Link href="/Projects" >
             Projects
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" Link href="About" >
+          <Link color="foreground" Link href="/About" >
             About us
           </Link>
         </NavbarItem>
@@ -82,40 +82,40 @@ export default function NavigationBar() {
 
       {/*Menu for Mobile*/}
       <NavbarMenu
-        className={`items-center space-y-2 justify-center md:hidden sm:flex `}
+        className={`items-center space-y-2 text-xl justify-center md:hidden sm:flex `}
       >
         <NavbarItem>
-          <Link color="foreground" Link href="Challanges" >
+          <Link color="foreground" Link href="/Challanges" >
             Challanges
           </Link>
         </NavbarItem>
 
         <NavbarItem>
-          <Link color="foreground" Link href="Internship" >
+          <Link color="foreground" Link href="/Internship" >
             Internship
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" Link href="Projects" >
+          <Link color="foreground" Link href="/Projects" >
             Projects
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" Link href="About" >
+          <Link color="foreground" Link href="/About" >
             About us
           </Link>
         </NavbarItem>
 
         <NavbarItem>
-          <Link color="foreground"
-            Link
-            href="/Login"
+          <Button 
+            as={NavLink}
+            to="/Register"
             color="primary"
             radius="full"
             variant="flat"
           >
             Register Now
-          </Link>
+          </Button>
         </NavbarItem>
       </NavbarMenu>
     </Navbar>

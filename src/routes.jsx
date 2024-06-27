@@ -12,10 +12,10 @@ export default function Path() {
       <Route path="/" element={<Layout />} />
 
       {/* Navigate using navbar  */}
-      <Route path="Challanges" element={<Challanges />} />
-      <Route path="Internship" element={<Internship />} />
-      <Route path="Projects" element={<Projects />} />
-      <Route path="About" element={<About />} />
+      <Route path="/Challanges" element={<Challanges />} />
+      <Route path="/Internship" element={<Internship />} />
+      <Route path="/Projects" element={<Projects />} />
+      <Route path="/About" element={<About />} />
 
     </Routes>
   );
