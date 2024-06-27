@@ -112,7 +112,8 @@ export const Challanges = () => {
             as={NavLink}
             to={"PasteGoogleFormLink"}
             variant="flat"
-            color="danger"
+            color="danger" 
+            size="lg"
           >
             Registration Form
           </Button>
