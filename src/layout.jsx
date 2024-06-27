@@ -60,7 +60,7 @@ export const Contest_Overview = () => {
           have the opportunity to join our enriching Internship Program.
         </p>
 
-        <Button as={NavLink} to={"Challanges"} variant="bordered">
+        <Button as={NavLink} to={"challanges"} variant="bordered">
           Full details
         </Button>
       </section>
@@ -87,7 +87,7 @@ export const Intership_Overview = () => {
           3-month internship program with DevConfig.
         </p>
 
-        <Button as={NavLink} to={"Challanges"} variant="bordered">
+        <Button as={NavLink} to={"intenship"} variant="bordered">
           Know more
         </Button>
       </section>

@@ -9,7 +9,7 @@ export default function NavigationBar() {
       <NavbarContent>
         <NavbarBrand>
         
-          <NavLink  to="/" className="font-bold text-inherit">
+          <NavLink  to={"/"} className="font-bold text-inherit">
             _DevConfig
           </NavLink>
         </NavbarBrand>
@@ -20,7 +20,7 @@ export default function NavigationBar() {
       {/*Menu for Desktop*/}
       <NavbarContent className="hidden space-x-2 sm:flex" justify="center">
         <NavbarItem>
-          <Link  color="foreground" Link href="/challanges"  >
+          <Link  color="foreground"  href={"/challanges"}  >
             Challanges
           </Link>
         </NavbarItem>
@@ -45,17 +45,17 @@ export default function NavigationBar() {
 
         </NavbarItem> */}
         <NavbarItem>
-          <Link color="foreground" Link href="/internship"  >
+          <Link color="foreground"  href={"/internship"}  >
             Internship
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" Link href="/projects" >
+          <Link color="foreground"  href={"/projects" }>
             Projects
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" Link href="/about" >
+          <Link color="foreground"  href={"/about"} >
             About us
           </Link>
         </NavbarItem>
@@ -78,23 +78,23 @@ export default function NavigationBar() {
         className={`items-center space-y-2 text-xl justify-center md:hidden sm:flex `}
       >
         <NavbarItem>
-          <Link className="text-2xl" color="foreground" Link href="/challanges" >
+          <Link className="text-2xl" color="foreground"  href={"/challanges"} >
             Challanges
           </Link>
         </NavbarItem>
 
         <NavbarItem>
-          <Link className="text-2xl" color="foreground" Link href="/internship" >
+          <Link className="text-2xl" color="foreground"  href={"/internship"} >
             Internship
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link className="text-2xl" color="foreground" Link href="/projects" >
+          <Link className="text-2xl" color="foreground"  href={"/projects" }>
             Projects
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link className="text-2xl" color="foreground" Link href="/about" >
+          <Link className="text-2xl" color="foreground" href={"/about"} >
             About us
           </Link>
         </NavbarItem>
