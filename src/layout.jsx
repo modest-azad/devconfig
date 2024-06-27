@@ -21,7 +21,7 @@ export const Layout = () => {
 export const Hero_Section = () => {
   return (
     <>
-      <header className="max-w-[1440px] h-96 grid place-content-center  m-auto text-center  px-[5%] space-y-4">
+      <header className="max-w-[1440px] h-96 grid place-content-center  m-auto text-center  px-[5%] md:px-[10%] space-y-4">
         <div className="hero-content space-y-4">
           <h3>
             Welcome to <span className="text-blue-600">DevConfig</span>
@@ -43,7 +43,7 @@ export const Hero_Section = () => {
 export const Contest_Overview = () => {
   return (
     <>
-      <section className="max-w-[1920px] m-auto py-16 px-[10%] space-y-4">
+      <section className="max-w-[1920px] m-auto py-16 px-[5%] md:px-[10%] space-y-4">
         <h2 className="text-2xl font-semibold">
           <span className="text-blue-600 underline underline-offset-4">
             Overview
@@ -70,7 +70,7 @@ export const Contest_Overview = () => {
 export const Intership_Overview = () => {
   return (
     <>
-      <section className="max-w-[1920px] m-auto px-[10%] space-y-4">
+      <section className="max-w-[1920px] m-auto px-[5%] md:px-[10%] space-y-4">
         <h2 className="text-2xl font-semibold">
           Introducing the DevConfig{" "}
           <span className="text-blue-600 underline underline-offset-4">
@@ -97,7 +97,7 @@ export const Intership_Overview = () => {
 export const Need_Assistance = () => {
   return (
     <>
-      <section className="max-w-[1920px] text-center m-auto py-16 px-[10%] space-y-4">
+      <section className="max-w-[1920px] text-center m-auto py-16 px-[5%] md:px-[10%] space-y-4">
         <h2 className="text-2xl font-semibold">
           Need{" "}
           <span className="text-blue-600 underline underline-offset-4">
@@ -116,7 +116,7 @@ export const Need_Assistance = () => {
           +91-123456789
         </Button>
 
-        <div className="social_media_links text-2xl flex space-x-4 justify-center">
+        <div className="social_media_links px-[5%] md:px-[10%] text-2xl flex space-x-4 justify-center">
           <a href="">{<BsInstagram />}</a>
           <a href="">{<BsFacebook />}</a>
           <a href="">{<BsTwitter />}</a>

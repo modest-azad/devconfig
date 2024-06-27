@@ -5,7 +5,7 @@ import { FaDownload } from "react-icons/fa";
 export const Challanges = () => {
   return (
     <>
-      <section className="max-w-[1920px] m-auto py-16 px-[10%] space-y-12">
+      <section className="max-w-[1920px] m-auto py-16 px-[5%] md:px-[10%] space-y-12">
         <div className="text-center text-4xl mb-16 font-bold text-blue-600 underline underline-offset-4">
           DevConfig Contests
         </div>

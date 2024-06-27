@@ -1,4 +1,4 @@
-import {User,Link, Image} from "@nextui-org/react";
+import {User,Link} from "@nextui-org/react";
 import { Need_Assistance } from "../layout";
 import { BsInstagram } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
@@ -6,7 +6,7 @@ import { BsTwitter } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 export const About = () => {
   return (
-    <div className="min-h-[100vh] px-[10%] grid place-content-center">
+    <div className="min-h-[100vh] px-[5%] md:px-[10%] grid place-content-center">
       <div className="our_team  text-center">
         <h2 className="text-2xl font-semibold">
           Our{" "}

@@ -52,17 +52,17 @@ export default function NavigationBar() {
 
         </NavbarItem> */}
         <NavbarItem>
-          <Link color="foreground" Link href="/Internship"  >
+          <Link color="foreground" Link href="/internship"  >
             Internship
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" Link href="/Projects" >
+          <Link color="foreground" Link href="/projects" >
             Projects
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" Link href="/About" >
+          <Link color="foreground" Link href="/about" >
             About us
           </Link>
         </NavbarItem>
@@ -85,23 +85,23 @@ export default function NavigationBar() {
         className={`items-center space-y-2 text-xl justify-center md:hidden sm:flex `}
       >
         <NavbarItem>
-          <Link color="foreground" Link href="/Challanges" >
+          <Link className="text-2xl" color="foreground" Link href="/challanges" >
             Challanges
           </Link>
         </NavbarItem>
 
         <NavbarItem>
-          <Link color="foreground" Link href="/Internship" >
+          <Link className="text-2xl" color="foreground" Link href="/internship" >
             Internship
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" Link href="/Projects" >
+          <Link className="text-2xl" color="foreground" Link href="/projects" >
             Projects
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" Link href="/About" >
+          <Link className="text-2xl" color="foreground" Link href="/about" >
             About us
           </Link>
         </NavbarItem>
