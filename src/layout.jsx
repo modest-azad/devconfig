@@ -21,18 +21,18 @@ export const Layout = () => {
 export const Hero_Section = () => {
   return (
     <>
-      <header className="max-w-[1440px] h-[70vh] grid place-content-center  m-auto text-center  px-[5%] md:px-[10%] space-y-4">
+      <header className="max-w-[1440px] h-[60vh] grid place-content-center  m-auto text-center  px-[5%] md:px-[10%] space-y-4">
         <div className="hero-content space-y-4">
           <h3>
             Welcome to <span className="text-sky-600">DevConfig</span>
           </h3>
-          <h1 className="text-5xl font-bold max-sm:leading-snug ">
+          <h1 className="text-5xl font-bold leading-tight  ">
             Contest and <span className="text-sky-600">Internship</span>{" "}
             Program <br /> 2024
           </h1>
           {/* add google form link in button  */}
-          <Button variant="flat" size="lg" color="primary">
-            Participate Now
+          <Button variant="flat" radius="full" size="lg" color="primary">
+            Participate
           </Button>
         </div>
       </header>

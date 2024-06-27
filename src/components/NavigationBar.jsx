@@ -75,26 +75,26 @@ export default function NavigationBar() {
 
       {/*Menu for Mobile*/}
       <NavbarMenu
-        className={`items-center space-y-2 text-xl justify-center md:hidden sm:flex `}
+        className={`items-center bg-transparent  space-y-4 text-xl justify-center md:hidden sm:flex `}
       >
         <NavbarItem>
-          <Link className="text-2xl" color="foreground"  href={"/challanges"} >
+          <Link className="text-2xl text-white/60" color="foreground"  href={"/challanges"} >
             Challanges
           </Link>
         </NavbarItem>
 
         <NavbarItem>
-          <Link className="text-2xl" color="foreground"  href={"/internship"} >
+          <Link className="text-2xl text-white/60" color="foreground"  href={"/internship"} >
             Internship
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link className="text-2xl" color="foreground"  href={"/projects" }>
+          <Link className="text-2xl text-white/60" color="foreground"  href={"/projects" }>
             Projects
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link className="text-2xl" color="foreground" href={"/about"} >
+          <Link className="text-2xl  text-white/60" color="foreground" href={"/about"} >
             About us
           </Link>
         </NavbarItem>
@@ -105,7 +105,8 @@ export default function NavigationBar() {
             to="/Register"
             color="primary"
             radius="full"
-            variant="flat"
+            variant="flat" 
+            size="lg"
           >
             Register Now
           </Button>

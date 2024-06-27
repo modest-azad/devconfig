@@ -21,9 +21,8 @@ export const About = () => {
           any step, please contact us
         </p>
 
-    <div className="my-8 flex justify-center space-x-8 overflow-scroll">
+    <div className="my-8  flex max-sm:flex-col gap-6 justify-center ">
       
-   
     
       <User  className=" min-w-fit" 
       name="Vikash Kumar"
