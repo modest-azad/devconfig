@@ -7,13 +7,13 @@ import { BrowserRouter } from "react-router-dom";
 import { Footer} from "./components/Footer.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
-    <NextUIProvider>
+  <NextUIProvider>
+      <BrowserRouter>
       <main className="dark text-foreground bg-background bg-[url('/images/blur_bg.png')] bg-cover">
         <NavigationBar />
         <Path />  {/* Router */}
         <Footer/>
       </main>
-    </NextUIProvider>
   </BrowserRouter>
+    </NextUIProvider>
 );

@@ -27,7 +27,7 @@ export default function NavigationBar() {
       {/*Menu for Desktop*/}
       <NavbarContent className="hidden space-x-2 sm:flex" justify="center">
         <NavbarItem>
-          <Link  color="foreground" Link href="/Challanges"  >
+          <Link  color="foreground" Link href="/challanges"  >
             Challanges
           </Link>
         </NavbarItem>
