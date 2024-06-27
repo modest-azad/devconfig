@@ -90,6 +90,18 @@ export const About = () => {
         src: "", size:"lg",
       }}
     />
+      <User  className=" min-w-fit" 
+      name="Uttam Chandra"
+      description={(
+        <div className="text-left">
+        <p>Role Unknown</p>
+       
+        </div>
+      )}
+      avatarProps={{
+        src: "", size:"lg",
+      }}
+    />
     
      
     </div>
