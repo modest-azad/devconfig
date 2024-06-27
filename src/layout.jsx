@@ -21,7 +21,7 @@ export const Layout = () => {
 export const Hero_Section = () => {
   return (
     <>
-      <header className="max-w-[1440px] h-96 grid place-content-center  m-auto text-center  px-[5%] md:px-[10%] space-y-4">
+      <header className="max-w-[1440px] h-[90vh] grid place-content-center  m-auto text-center  px-[5%] md:px-[10%] space-y-4">
         <div className="hero-content space-y-4">
           <h3>
             Welcome to <span className="text-sky-600">DevConfig</span>
