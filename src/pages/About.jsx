@@ -1,7 +1,7 @@
 import { Need_Assistance } from "../layout";
 export const About = () => {
   return (
-    <div className="h-[100vh] grid place-content-center">
+    <div className="h-[100vh] px-[10%] grid place-content-center">
       <div className="our_team  text-center">
         <h2 className="text-2xl font-semibold">
           Our{" "}

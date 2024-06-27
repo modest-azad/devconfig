@@ -26,7 +26,7 @@ export const Hero_Section = () => {
           <h3>
             Welcome to <span className="text-blue-600">DevConfig</span>
           </h3>
-          <h1 className="text-5xl font-bold leading-[4vw]">
+          <h1 className="text-5xl font-bold max-sm:leading-snug ">
             Contest and <span className="text-blue-600">Internship</span>{" "}
             Program <br /> 2024
           </h1>
@@ -43,7 +43,7 @@ export const Hero_Section = () => {
 export const Contest_Overview = () => {
   return (
     <>
-      <section className="max-w-[1920px] m-auto py-16 md:px-[10%] space-y-4">
+      <section className="max-w-[1920px] m-auto py-16 px-[10%] space-y-4">
         <h2 className="text-2xl font-semibold">
           <span className="text-blue-600 underline underline-offset-4">
             Overview
@@ -70,7 +70,7 @@ export const Contest_Overview = () => {
 export const Intership_Overview = () => {
   return (
     <>
-      <section className="max-w-[1920px] m-auto  md:px-[10%] space-y-4">
+      <section className="max-w-[1920px] m-auto px-[10%] space-y-4">
         <h2 className="text-2xl font-semibold">
           Introducing the DevConfig{" "}
           <span className="text-blue-600 underline underline-offset-4">
@@ -97,7 +97,7 @@ export const Intership_Overview = () => {
 export const Need_Assistance = () => {
   return (
     <>
-      <section className="max-w-[1920px] text-center m-auto py-16 md:px-[10%] space-y-4">
+      <section className="max-w-[1920px] text-center m-auto py-16 px-[10%] space-y-4">
         <h2 className="text-2xl font-semibold">
           Need{" "}
           <span className="text-blue-600 underline underline-offset-4">
