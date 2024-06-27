@@ -24,10 +24,10 @@ export const Hero_Section = () => {
       <header className="max-w-[1440px] h-96 grid place-content-center  m-auto text-center  px-[5%] md:px-[10%] space-y-4">
         <div className="hero-content space-y-4">
           <h3>
-            Welcome to <span className="text-blue-600">DevConfig</span>
+            Welcome to <span className="text-sky-600">DevConfig</span>
           </h3>
           <h1 className="text-5xl font-bold max-sm:leading-snug ">
-            Contest and <span className="text-blue-600">Internship</span>{" "}
+            Contest and <span className="text-sky-600">Internship</span>{" "}
             Program <br /> 2024
           </h1>
           {/* add google form link in button  */}
@@ -45,7 +45,7 @@ export const Contest_Overview = () => {
     <>
       <section className="max-w-[1920px] m-auto py-16 px-[5%] md:px-[10%] space-y-4">
         <h2 className="text-2xl font-semibold">
-          <span className="text-blue-600 underline underline-offset-4">
+          <span className="text-sky-600 underline underline-offset-4">
             Overview
           </span>{" "}
           of the DevConfig Contest
@@ -73,7 +73,7 @@ export const Intership_Overview = () => {
       <section className="max-w-[1920px] m-auto px-[5%] md:px-[10%] space-y-4">
         <h2 className="text-2xl font-semibold">
           Introducing the DevConfig{" "}
-          <span className="text-blue-600 underline underline-offset-4">
+          <span className="text-sky-600 underline underline-offset-4">
             Internship
           </span>{" "}
           Program
@@ -100,7 +100,7 @@ export const Need_Assistance = () => {
       <section className="max-w-[1920px] text-center m-auto py-16 px-[5%] md:px-[10%] space-y-4">
         <h2 className="text-2xl font-semibold">
           Need{" "}
-          <span className="text-blue-600 underline underline-offset-4">
+          <span className="text-sky-600 underline underline-offset-4">
             Support
           </span>
           ? We&apos;re Here to Help

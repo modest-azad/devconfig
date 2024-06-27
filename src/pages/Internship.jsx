@@ -2,7 +2,7 @@ export const Internship = () => {
   return (
     <>
       <section className="max-w-[1920px] m-auto py-16 px-[5%] md:px-[10%] space-y-12  md:grid grid-cols-2 gap-4">
-        <div className="col-span-2 text-center text-4xl mb-16 font-bold text-blue-600 underline underline-offset-4">
+        <div className="col-span-2 text-center text-4xl mb-16 font-bold text-sky-600 underline underline-offset-4">
           DevConfig Internship Program
         </div>
 
@@ -20,7 +20,7 @@ export const Internship = () => {
         </div>
         <div className="over-view space-y-2">
           <h2 className="text-xl font-semibold">
-            <span className="text-blue-600 ">What you will do?</span>
+            <span className="text-sky-600 ">What you will do?</span>
           </h2>
           <p className="text-justify">
             During the 3-month internship, participants will be exposed to
@@ -33,7 +33,7 @@ export const Internship = () => {
         </div>
         <div className="over-view space-y-2">
           <h2 className="text-xl font-semibold">
-            <span className="text-blue-600 ">Future Benefits</span>
+            <span className="text-sky-600 ">Future Benefits</span>
           </h2>
           <p className="text-justify">
             Interns will also have the opportunity to work on live projects.

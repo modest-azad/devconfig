@@ -10,7 +10,7 @@ export const About = () => {
       <div className="our_team  text-center">
         <h2 className="text-2xl font-semibold">
           Our{" "}
-          <span className="text-blue-600 underline underline-offset-4">
+          <span className="text-sky-600 underline underline-offset-4">
             Team
           </span>
           

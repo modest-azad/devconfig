@@ -6,13 +6,13 @@ export const Challanges = () => {
   return (
     <>
       <section className="max-w-[1920px] m-auto py-16 px-[5%] md:px-[10%] space-y-12">
-        <div className="text-center text-4xl mb-16 font-bold text-blue-600 underline underline-offset-4">
+        <div className="text-center text-4xl mb-16 font-bold text-sky-600 underline underline-offset-4">
           DevConfig Contests
         </div>
 
         <div className="over-view space-y-2">
           <h2 className="text-2xl font-semibold">
-            <span className="text-blue-600 ">Introduction</span>
+            <span className="text-sky-600 ">Introduction</span>
           </h2>
           <p>
             Our contest is specifically designed to challenge and showcase the
@@ -33,7 +33,7 @@ export const Challanges = () => {
         </div>
         <div className=" space-y-2">
         <h3>
-            <span className="text-2xl text-blue-600 ">
+            <span className="text-2xl text-sky-600 ">
               How Can You Participate?
             </span>{" "}
           </h3>
@@ -64,7 +64,7 @@ export const Challanges = () => {
 
         <div className="user_benefits">
           <h3>
-            <span className="text-2xl text-blue-600 ">Benefits and Reward</span>{" "}
+            <span className="text-2xl text-sky-600 ">Benefits and Reward</span>{" "}
           </h3>
           <p>
             The most exciting part of the contest is the reward. The top
@@ -78,7 +78,7 @@ export const Challanges = () => {
         </div>
         <div className="How_to_participate">
           <h3>
-            <span className="text-2xl text-blue-600 ">
+            <span className="text-2xl text-sky-600 ">
               How Can You Participate?
             </span>{" "}
           </h3>
@@ -92,7 +92,7 @@ export const Challanges = () => {
         </div>
 
         <div className="important_dates text-center">
-          <h3 className="text-2xl font-semibold text-blue-600 ">
+          <h3 className="text-2xl font-semibold text-sky-600 ">
             Important Dates to Remember
           </h3>
           <p>
