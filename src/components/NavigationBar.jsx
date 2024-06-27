@@ -1,21 +1,14 @@
 // eslint-disable-next-line no-unused-vars
 import {Dropdown,DropdownTrigger, DropdownMenu,DropdownItem, Button, Link,  Navbar,  NavbarBrand, NavbarMenu, NavbarContent, NavbarItem,NavbarMenuToggle,Image,} from "@nextui-org/react";
 import { NavLink } from "react-router-dom";
-// icons 
-import { BsBag } from "react-icons/bs";
-import { GiPodiumWinner } from "react-icons/gi";
+
 
 export default function NavigationBar() {
   return (
     <Navbar shouldHideOnScroll>
       <NavbarContent>
         <NavbarBrand>
-          <NavLink to="/">
-            <Image
-              src={""}
-              className=" w-12 -rotate-[20deg] hover:-rotate-[360deg] transition-transform duration-[2000]"
-            />
-          </NavLink>
+        
           <NavLink  to="/" className="font-bold text-inherit">
             _DevConfig
           </NavLink>
