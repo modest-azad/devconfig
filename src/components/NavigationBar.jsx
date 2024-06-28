@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-import {Dropdown,DropdownTrigger, DropdownMenu,DropdownItem, Button, Link,  Navbar,  NavbarBrand, NavbarMenu, NavbarContent, NavbarItem,NavbarMenuToggle,Image,} from "@nextui-org/react";
+import { Button, Link, Navbar, NavbarBrand, NavbarMenu, NavbarContent, NavbarItem, NavbarMenuToggle } from "@nextui-org/react";
 import { NavLink } from "react-router-dom";
 
 
@@ -8,8 +8,8 @@ export default function NavigationBar() {
     <Navbar shouldHideOnScroll>
       <NavbarContent>
         <NavbarBrand>
-        
-          <NavLink  to={"/"} className="font-bold text-inherit">
+
+          <NavLink to={"/"} className="font-bold text-inherit">
             _DevConfig
           </NavLink>
         </NavbarBrand>
@@ -20,19 +20,19 @@ export default function NavigationBar() {
       {/*Menu for Desktop*/}
       <NavbarContent className="hidden space-x-2 sm:flex" justify="center">
         <NavbarItem>
-          <Link  color="foreground"  href={"/challanges"}  >
+          <NavLink color="foreground" to={"/challanges"}  >
             Challanges
-          </Link>
+          </NavLink>
         </NavbarItem>
         {/* Dropdown menu : uncomment if need */}
         {/* <NavbarItem >
           <Dropdown>
             <DropdownTrigger>
-              <Link color="foreground"
+              <NavLink color="foreground"
                  endContent={<FiChevronDown />}
               >
                 Careers
-              </Link>
+              </NavLink>
             </DropdownTrigger>
             <DropdownMenu variant="faded" aria-label="Static Actions">
               <DropdownItem key="new" startContent={<PiBagDuotone />}>Jobs</DropdownItem>
@@ -45,26 +45,26 @@ export default function NavigationBar() {
 
         </NavbarItem> */}
         <NavbarItem>
-          <Link color="foreground"  href={"/internship"}  >
+          <NavLink color="foreground" to={"/internship"}  >
             Internship
-          </Link>
+          </NavLink>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground"  href={"/projects" }>
+          <NavLink color="foreground" to={"/projects"}>
             Projects
-          </Link>
+          </NavLink>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground"  href={"/about"} >
+          <NavLink color="foreground" to={"/about"} >
             About us
-          </Link>
+          </NavLink>
         </NavbarItem>
 
         <NavbarItem>
           <Button color="primary"
-           as={NavLink}
+            as={NavLink}
             to="/Login"
-            
+
             radius="md"
             variant="flat"
           >
@@ -78,34 +78,34 @@ export default function NavigationBar() {
         className={`items-center bg-transparent  space-y-4 text-xl justify-center md:hidden sm:flex `}
       >
         <NavbarItem>
-          <Link className="text-2xl text-white/60" color="foreground"  href={"/challanges"} >
+          <NavLink className="text-2xl text-white/60" color="foreground" to={"/challanges"} >
             Challanges
-          </Link>
+          </NavLink>
         </NavbarItem>
 
         <NavbarItem>
-          <Link className="text-2xl text-white/60" color="foreground"  href={"/internship"} >
+          <NavLink className="text-2xl text-white/60" color="foreground" to={"/internship"} >
             Internship
-          </Link>
+          </NavLink>
         </NavbarItem>
         <NavbarItem>
-          <Link className="text-2xl text-white/60" color="foreground"  href={"/projects" }>
+          <NavLink className="text-2xl text-white/60" color="foreground" to={"/projects"}>
             Projects
-          </Link>
+          </NavLink>
         </NavbarItem>
         <NavbarItem>
-          <Link className="text-2xl  text-white/60" color="foreground" href={"/about"} >
+          <NavLink className="text-2xl  text-white/60" color="foreground" to={"/about"} >
             About us
-          </Link>
+          </NavLink>
         </NavbarItem>
 
         <NavbarItem>
-          <Button 
+          <Button
             as={NavLink}
             to="/Register"
             color="primary"
             radius="full"
-            variant="flat" 
+            variant="flat"
             size="lg"
           >
             Register Now
