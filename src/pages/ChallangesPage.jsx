@@ -2,11 +2,11 @@ import { Button } from "@nextui-org/react";
 import { NavLink } from "react-router-dom";
 import { FaDownload } from "react-icons/fa";
 
-export const Challanges = () => {
+export const ChallangesPage = () => {
   return (
     <>
       <section className="max-w-[1920px] m-auto py-16 px-[5%] md:px-[10%] space-y-12">
-        <div className="text-center text-4xl mb-16 font-bold text-sky-600 underline underline-offset-4">
+        <div className="text-center text-4xl font-bold text-sky-600 underline underline-offset-4">
           DevConfig Contests
         </div>
 

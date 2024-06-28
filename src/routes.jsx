@@ -1,9 +1,10 @@
 import { Routes, Route } from "react-router-dom";
+// Pages 
 import { Layout } from "./layout";
-import {Challanges} from './pages/Challanges.jsx';
-import { Internship } from "./pages/Internship.jsx";
-import { About } from "./pages/About.jsx";
-import { Projects } from "./pages/Projects.jsx";
+import { ChallangesPage } from './pages/ChallangesPage.jsx';
+import { InternshipPage } from "./pages/InternshipPage.jsx";
+import { ProjectsPage } from "./pages/ProjectsPage.jsx";
+import { AboutPage } from "./pages/AboutPage.jsx";
 
 export default function Path() {
   return (
@@ -12,10 +13,10 @@ export default function Path() {
       <Route path="/" element={<Layout />} />
 
       {/* Navigate using navbar  */}
-      <Route path="/challanges" element={<Challanges />} />
-      <Route path="/internship" element={<Internship />} />
-      <Route path="/projects" element={<Projects />} />
-      <Route path="/about" element={<About />} />
+      <Route path="/challanges" element={<ChallangesPage />} />
+      <Route path="/internship" element={<InternshipPage />} />
+      <Route path="/projects" element={<ProjectsPage />} />
+      <Route path="/about" element={<AboutPage />} />
 
     </Routes>
   );

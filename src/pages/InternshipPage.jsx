@@ -1,8 +1,8 @@
-export const Internship = () => {
+export const InternshipPage = () => {
   return (
     <>
       <section className="max-w-[1920px] m-auto py-16 px-[5%] md:px-[10%] space-y-12  md:grid grid-cols-2 gap-4">
-        <div className="col-span-2 text-center text-4xl mb-16 font-bold text-sky-600 underline underline-offset-4">
+        <div className="col-span-2 text-center text-4xl  font-bold text-sky-600 underline underline-offset-4">
           DevConfig Internship Program
         </div>
 
