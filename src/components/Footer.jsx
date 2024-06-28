@@ -7,10 +7,10 @@ export function Footer() {
 
       <footer className="text-center text-sm py-4">
         <p>DevConfig 2024, ©Copyright reserved.</p>
-        <p>
+        {/* <p>
           Designed and Developed by{" "}
           <a className="underline underline-offset-4" href="http://www.intagram.com/the_mdazad/">{'Md Azad'}</a>
-        </p>
+        </p> */}
       </footer>
     </>
   );
