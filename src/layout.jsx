@@ -31,7 +31,7 @@ export const Hero_Section = () => {
             Program <br /> 2024
           </h1>
           {/* add google form link in button  */}
-          <Button variant="flat" radius="full" size="lg" color="primary">
+          <Button className="bg-sky-600" variant="shadow" radius="full" size="lg" color="primary">
             Participate
           </Button>
         </div>

@@ -100,7 +100,7 @@ export default function NavigationBar() {
         </NavbarItem>
 
         <NavbarItem>
-          <Button
+          <Button 
             as={NavLink}
             to="/Register"
             color="primary"
