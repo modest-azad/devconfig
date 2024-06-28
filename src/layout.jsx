@@ -10,40 +10,40 @@ import { motion } from "framer-motion";
 
 export const Layout = () => {
   return (
-    <>
-      <motion.div
+    <div className="overflow-hidden">
+      <motion.div 
         initial={{ opacity: 0, y: -50 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 1, delay: 0.5 }}
         viewport={{ once: false, amount: 0 }}
       >
         <Hero_Section />
       </motion.div>
-      <motion.div
+      <motion.div 
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 1,  }}
         viewport={{ once: false, amount: 0 }}
       >
         <Contest_Overview />
       </motion.div>
-      <motion.div
+      <motion.div 
         initial={{ opacity: 0, x: 50 }}
         whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 1, delay: 0.5 }}
         viewport={{ once: false, amount: 0 }}
       >
         <Intership_Overview />
       </motion.div>
-      <motion.div
+      <motion.div 
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 1, delay: 0.5 }}
         viewport={{ once: false, amount: 0 }}
       >
         <Need_Assistance />
       </motion.div>
-    </>
+    </div>
   );
 };
 
@@ -122,8 +122,8 @@ export const Intership_Overview = () => {
           3-month internship program with DevConfig.
         </p>
 
-        <Button as={NavLink} to={"intenship"} variant="bordered">
-          Know more
+        <Button as={NavLink} to={"/intenship"} variant="bordered">
+          Itnernship
         </Button>
       </section>
     </>
