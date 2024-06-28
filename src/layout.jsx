@@ -11,16 +11,36 @@ import { motion } from "framer-motion";
 export const Layout = () => {
   return (
     <>
-       <motion.div initial={{ opacity: 0, y: -50 }} whileInView={{ opacity: 100, y: 0 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1 }}  viewport={{ once: true, amount: 0.8 }}>
+      <motion.div
+        initial={{ opacity: 0, y: -50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+        viewport={{ once: false, amount: 0 }}
+      >
         <Hero_Section />
       </motion.div>
-      <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 100, x: 0 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.2 }} viewport={{ once: true, amount: 0.8 }}>
+      <motion.div
+        initial={{ opacity: 0, x: -50 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1 }}
+        viewport={{ once: false, amount: 0 }}
+      >
         <Contest_Overview />
       </motion.div>
-      <motion.div initial={{ opacity: 0, x: 50 }} whileInView={{ opacity: 100, x: 0 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.4 }} viewport={{ once: true, amount: 0.8 }}>
+      <motion.div
+        initial={{ opacity: 0, x: 50 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1 }}
+        viewport={{ once: false, amount: 0 }}
+      >
         <Intership_Overview />
       </motion.div>
-      <motion.div initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.6 }} viewport={{ once: true, amount: 0.8 }}>
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+        viewport={{ once: false, amount: 0 }}
+      >
         <Need_Assistance />
       </motion.div>
     </>
@@ -30,17 +50,23 @@ export const Layout = () => {
 export const Hero_Section = () => {
   return (
     <>
-      <header className="max-w-[1440px] h-[60vh] grid place-content-center  m-auto text-center  px-[5%] md:px-[10%] space-y-4">
+      <header className="max-w-[1440px] min-h-[90vh] grid place-content-center  m-auto text-center  px-[5%] md:px-[10%] space-y-4">
         <div className="hero-content space-y-4">
           <h3>
             Welcome to <span className="text-sky-600">DevConfig</span>
           </h3>
           <h1 className="text-5xl font-bold leading-tight  ">
-            Contest and <span className="text-sky-600">Internship</span>{" "}
-            Program <br /> 2024
+            Contest and <span className="text-sky-600">Internship</span> Program{" "}
+            <br /> 2024
           </h1>
           {/* add google form link in button  */}
-          <Button className="bg-sky-600" variant="shadow" radius="full" size="lg" color="primary">
+          <Button
+            className="bg-sky-600"
+            variant="shadow"
+            radius="full"
+            size="lg"
+            color="primary"
+          >
             Participate
           </Button>
         </div>
