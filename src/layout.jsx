@@ -6,14 +6,23 @@ import { IoCall } from "react-icons/io5";
 import { BsInstagram } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import { BsTwitter } from "react-icons/bs";
+import { motion } from "framer-motion";
 
 export const Layout = () => {
   return (
     <>
-      <Hero_Section />
-      <Contest_Overview />
-      <Intership_Overview />
-      <Need_Assistance />
+       <motion.div initial={{ opacity: 0, y: -50 }} whileInView={{ opacity: 100, y: 0 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1 }}  viewport={{ once: true, amount: 0.8 }}>
+        <Hero_Section />
+      </motion.div>
+      <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 100, x: 0 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.2 }} viewport={{ once: true, amount: 0.8 }}>
+        <Contest_Overview />
+      </motion.div>
+      <motion.div initial={{ opacity: 0, x: 50 }} whileInView={{ opacity: 100, x: 0 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.4 }} viewport={{ once: true, amount: 0.8 }}>
+        <Intership_Overview />
+      </motion.div>
+      <motion.div initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.6 }} viewport={{ once: true, amount: 0.8 }}>
+        <Need_Assistance />
+      </motion.div>
     </>
   );
 };
