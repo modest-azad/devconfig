@@ -6,10 +6,11 @@ export const ChallangesPage = () => {
   return (
     <>
       <section className="max-w-[1920px] m-auto py-16 px-[5%] md:px-[10%] space-y-12">
+      
         <div className="text-center text-4xl font-bold text-sky-600 underline underline-offset-4">
-          DevConfig Contests
+          Contests Details
         </div>
-
+        
         <div className="over-view space-y-2">
           <h2 className="text-2xl font-semibold">
             <span className="text-sky-600 ">Introduction</span>

@@ -9,7 +9,7 @@ export function Footer() {
         <p>DevConfig 2024, ©Copyright reserved.</p>
         <p>
           Designed and Developed by{" "}
-          <a className="underline underline-offset-4" href="http://www.intagram.com/the_mdazad/">{'Md Azad'}</a>
+          <a className="underline underline-offset-4" href="http://www.intagram.com/the_mdazad/">{'Azad'}</a>
         </p>
       </footer>
     </>

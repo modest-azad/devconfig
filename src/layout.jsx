@@ -1,6 +1,6 @@
 /* eslint-disable react-refresh/only-export-components */
 // your root page
-import { Button } from "@nextui-org/react";
+import { Button, Divider } from "@nextui-org/react";
 import { NavLink } from "react-router-dom";
 import { IoCall } from "react-icons/io5";
 import { BsInstagram } from "react-icons/bs";
@@ -10,27 +10,28 @@ import { motion } from "framer-motion";
 
 export const Layout = () => {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden space-y-8">
       <motion.div 
-        initial={{ opacity: 0, y: -50 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1, delay: 0.5 }}
+        initial={{ opacity: 0, scale: 0.2}}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 1.2,}}
         viewport={{ once: false, amount: 0 }}
       >
         <Hero_Section />
       </motion.div>
+      
       <motion.div 
-        initial={{ opacity: 0, x: -50 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 1,  }}
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, delay: 0 }}
         viewport={{ once: false, amount: 0 }}
       >
         <Contest_Overview />
       </motion.div>
       <motion.div 
-        initial={{ opacity: 0, x: 50 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 1, delay: 0.5 }}
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, delay: 0 }}
         viewport={{ once: false, amount: 0 }}
       >
         <Intership_Overview />
@@ -38,7 +39,7 @@ export const Layout = () => {
       <motion.div 
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1, delay: 0.5 }}
+        transition={{ duration: 1, delay: 0 }}
         viewport={{ once: false, amount: 0 }}
       >
         <Need_Assistance />
@@ -50,14 +51,15 @@ export const Layout = () => {
 export const Hero_Section = () => {
   return (
     <>
-      <header className="max-w-[1440px] min-h-[90vh] grid place-content-center  m-auto text-center  px-[5%] md:px-[10%]">
+      <header className="max-w-[1440px]  py-24 grid place-content-center  m-auto text-center  px-[5%] md:px-[10%]">
         <div className="hero-content space-y-4">
           <h3>
             Welcome to <span className="text-sky-600">DevConfig</span>
           </h3>
           <h1 className="text-5xl font-bold leading-tight  ">
             Contest and <span className="text-sky-600">Internship</span> Program{" "}
-            <br /> 2024
+            <br /> 
+            <span id="Home_Number">2024</span>
           </h1>
           {/* add google form link in button  */}
           <Button

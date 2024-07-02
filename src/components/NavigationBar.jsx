@@ -24,34 +24,9 @@ export default function NavigationBar() {
             Challanges
           </NavLink>
         </NavbarItem>
-        {/* Dropdown menu : uncomment if need */}
-        {/* <NavbarItem >
-          <Dropdown>
-            <DropdownTrigger>
-              <NavLink color="foreground"
-                 endContent={<FiChevronDown />}
-              >
-                Careers
-              </NavLink>
-            </DropdownTrigger>
-            <DropdownMenu variant="faded" aria-label="Static Actions">
-              <DropdownItem key="new" startContent={<PiBagDuotone />}>Jobs</DropdownItem>
-              <DropdownItem key="new" startContent={<PiLaptopDuotone />}>Intenships</DropdownItem>
-              <DropdownItem key="CheckResult" className="text-danger" color="danger">
-                Check Certificate
-              </DropdownItem>
-            </DropdownMenu>
-          </Dropdown>
-
-        </NavbarItem> */}
         <NavbarItem>
           <NavLink color="foreground" to={"/internship"}  >
             Internship
-          </NavLink>
-        </NavbarItem>
-        <NavbarItem>
-          <NavLink color="foreground" to={"/projects"}>
-            Projects
           </NavLink>
         </NavbarItem>
         <NavbarItem>
@@ -86,11 +61,6 @@ export default function NavigationBar() {
         <NavbarItem>
           <NavLink className="text-2xl text-white/60" color="foreground" to={"/internship"} >
             Internship
-          </NavLink>
-        </NavbarItem>
-        <NavbarItem>
-          <NavLink className="text-2xl text-white/60" color="foreground" to={"/projects"}>
-            Projects
           </NavLink>
         </NavbarItem>
         <NavbarItem>
