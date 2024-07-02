@@ -5,81 +5,10 @@ import { BsInstagram } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { BsTwitter } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
+import { Divider } from "@nextui-org/react";
 
 export const AboutPage = () => {
-  const userDetails = [
-    {
-      name: "Vikash Kumar",
-      role: "Fullstack Developer",
-      socials: [
-        {
-          icon: <BsInstagram />,
-          link: "https://www.instagram.com/vikashkrdeveloper/"
-        },
-        {
-          icon: <BsLinkedin />,
-          link: "https://www.linkedin.com/in/vikashkrdeveloper/"
-        },
-        {
-          icon: <BsTwitter />,
-          link: "https://twitter.com/vikash2696v"
-        },
-        {
-          icon: <BsGithub />,
-          link: "https://github.com/vikashkrdeveloper",
-        },
-      ],
-      avatar: "https://avatars.githubusercontent.com/u/128849038?v=4"
-    },
-    {
-      name: "Md Azad",
-      role: "UI/UX Designer | Developer",
-      socials: [
-        {
-          icon: <BsInstagram />,
-          link: "https://instagram.com/the_mdazad"
-        },
-        {
-          icon: <BsLinkedin />,
-          link: "https://www.linkedin.com/in/modest-azad/"
-        },
-        {
-          icon: <BsGithub />,
-          link: "",
-        },
-      ],
-      avatar: "https://avatars.githubusercontent.com/u/81636077?v=4"
-    },
-    {
-      name: "Anshu Kumar",
-      role: "HR | Researcher",
-      socials: [
-        {
-          icon: <BsInstagram />,
-          link: ""
-        },
-        {
-          icon: <BsLinkedin />,
-          link: ""
-        },
-        {
-          icon: <BsTwitter />,
-          link: ""
-        },
-        {
-          icon: <BsGithub />,
-          link: ""
-        },
-      ],
-      avatar: ""
-    },
-    {
-      name: "Uttam Chandra",
-      role: "Role Unknown",
-      socials: [],
-      avatar: ""
-    },
-  ]
+ 
   return (
     <div className="min-h-[100vh] px-[5%] md:px-[10%] space-y-12 py-16 grid place-content-center">
       <div className="text-center text-4xl font-bold text-sky-600 underline underline-offset-4">
@@ -109,16 +38,16 @@ export const AboutPage = () => {
       description={(
         <div className="text-left">
         <p>Fullstack Developer</p>
-        <Link className="m-1 " target="_blank" href="" size="md" isExternal >
+        <Link className="m-1 " target="_blank" href="https://www.instagram.com/vikashkrdeveloper/" size="md" isExternal >
           <BsInstagram/>
         </Link>
-        <Link className="m-1 " target="_blank" href="" size="md" isExternal >
+        <Link className="m-1 " target="_blank" href="https://www.linkedin.com/in/vikashkrdeveloper/" size="md" isExternal >
         <BsLinkedin/>
         </Link>
-        <Link className="m-1 " target="_blank" href="" size="md" isExternal >
+        <Link className="m-1 " target="_blank" href="https://twitter.com/vikash2696v" size="md" isExternal >
         <BsTwitter />
         </Link>
-        <Link className="m-1 " target="_blank" href="https://github.com/modest-azad" size="md" isExternal >
+        <Link className="m-1 " target="_blank" href="https://github.com/vikashkrdeveloper" size="md" isExternal >
         <BsGithub />
         </Link>
         </div>
@@ -139,7 +68,6 @@ export const AboutPage = () => {
         <Link className="m-1 " target="_blank" href="https://www.linkedin.com/in/modest-azad/" size="md" isExternal >
         <BsLinkedin/>
         </Link>
-        
         <Link className="m-1 " target="_blank" href="https://github.com/modest-azad" size="md" isExternal >
         <BsGithub />
         </Link>
