@@ -122,8 +122,8 @@ export const Intership_Overview = () => {
           3-month internship program with DevConfig.
         </p>
 
-        <Button as={NavLink} to={"/intenship"} variant="bordered">
-          Itnernship
+        <Button as={NavLink} to={"/internship"} variant="bordered">
+          Get Itnernship
         </Button>
       </section>
     </>
