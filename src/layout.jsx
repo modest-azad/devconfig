@@ -1,20 +1,18 @@
 /* eslint-disable react-refresh/only-export-components */
 // your root page
-import { Button, Divider } from "@nextui-org/react";
+import { motion } from "framer-motion";
+import { Button} from "@nextui-org/react";
 import { NavLink } from "react-router-dom";
 import { IoCall } from "react-icons/io5";
-import { BsInstagram } from "react-icons/bs";
-import { BsFacebook } from "react-icons/bs";
-import { BsTwitter } from "react-icons/bs";
-import { motion } from "framer-motion";
+import { BsInstagram,BsFacebook,BsTwitter } from "react-icons/bs";
 
 export const Layout = () => {
   return (
     <div className="overflow-hidden space-y-8">
       <motion.div 
-        initial={{ opacity: 0, scale: 0.2}}
-        whileInView={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 1.2,}}
+        initial={{ opacity: 0, y:-60}}
+        whileInView={{ opacity: 1, y:0 }}
+        transition={{ duration: 1,}}
         viewport={{ once: false, amount: 0 }}
       >
         <Hero_Section />
@@ -59,7 +57,7 @@ export const Hero_Section = () => {
           <h1 className="text-5xl font-bold leading-tight  ">
             Contest and <span className="text-sky-600">Internship</span> Program{" "}
             <br /> 
-            <span id="Home_Number">2024</span>
+            <span id="Home_umber">2024</span>
           </h1>
           {/* add google form link in button  */}
           <Button
