@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import { Button, Link, Navbar, NavbarBrand, NavbarMenu, NavbarContent, NavbarItem, NavbarMenuToggle } from "@nextui-org/react";
 import { NavLink } from "react-router-dom";
+import ThemeSwitch from "./ThemeSwitch";
 
 
 export default function NavigationBar() {
@@ -82,6 +83,7 @@ export default function NavigationBar() {
           </Button>
         </NavbarItem>
       </NavbarMenu>
+      <ThemeSwitch/>
     </Navbar>
   );
 }
