@@ -123,7 +123,7 @@ export const Intership_Overview = () => {
         </p>
 
         <Button as={NavLink} to={"/internship"} variant="bordered">
-          Get Itnernship
+          Know More
         </Button>
       </section>
     </>
