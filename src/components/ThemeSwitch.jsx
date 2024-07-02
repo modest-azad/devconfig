@@ -16,8 +16,8 @@ const ThemeSwitch = () => {
       defaultSelected={theme === "light"}
       size="lg"
       color="default"
-      startContent={<MdOutlineWbSunny />}
-      endContent={<MdDarkMode />}
+      startContent={<MdDarkMode />}
+      endContent={<MdOutlineWbSunny />}
 
       onChange={() => {
         setTheme(theme === "light" ? "dark" : "light")

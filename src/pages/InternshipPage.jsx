@@ -6,7 +6,7 @@ export const InternshipPage = () => {
            Internship Program
         </div>     
       
-        <div className="over-view space-y-2 col-span-2">
+        <div className="over-view space-y-2 max-sm:text-justify col-span-2">
           <p>
             The DevConfig Internship Program offers a unique opportunity for the
             <span className="underline underline-offset-4">
