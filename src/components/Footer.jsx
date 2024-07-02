@@ -6,7 +6,7 @@ export function Footer() {
   return (
     <>
       <Divider />
-      <footer className="flex flex-wrap justify-center max-sm:text-center md:justify-between items-centerm py-4  px-[5%] max-sm:space-y-6">
+      <footer className="flex flex-wrap-reverse justify-center max-sm:text-center md:justify-between items-center py-4  px-[5%] max-sm:gap-4">
         <p className="text-[12px]">
         DevConfig 2024, ©Copyright reserved.
           <br />

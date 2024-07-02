@@ -13,7 +13,7 @@ const ThemeSwitch = () => {
   return (
     <>
     <Switch
-      defaultSelected={theme === "dark"}
+      defaultSelected={theme === "light"}
       size="lg"
       color="default"
       startContent={<MdOutlineWbSunny />}

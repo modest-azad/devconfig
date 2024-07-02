@@ -54,18 +54,18 @@ export default function NavigationBar() {
         className={`items-center bg-transparent  space-y-4 text-xl justify-center md:hidden sm:flex `}
       >
         <NavbarItem>
-          <NavLink className="text-2xl text-white/60" color="foreground" to={"/challanges"} >
+          <NavLink className="text-2xl " color="foreground" to={"/challanges"} >
             Challanges
           </NavLink>
         </NavbarItem>
 
         <NavbarItem>
-          <NavLink className="text-2xl text-white/60" color="foreground" to={"/internship"} >
+          <NavLink className="text-2xl " color="foreground" to={"/internship"} >
             Internship
           </NavLink>
         </NavbarItem>
         <NavbarItem>
-          <NavLink className="text-2xl  text-white/60" color="foreground" to={"/about"} >
+          <NavLink className="text-2xl  " color="foreground" to={"/about"} >
             About us
           </NavLink>
         </NavbarItem>
@@ -83,7 +83,9 @@ export default function NavigationBar() {
           </Button>
         </NavbarItem>
       </NavbarMenu>
+      <span className="max-sm:hidden">
       <ThemeSwitch/>
+      </span>
     </Navbar>
   );
 }

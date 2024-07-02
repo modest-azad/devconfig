@@ -49,12 +49,12 @@ export const Layout = () => {
 export const Hero_Section = () => {
   return (
     <>
-      <header className="max-w-[1440px]  py-24 grid place-content-center  m-auto text-center  px-[5%] md:px-[10%]">
-        <div className="hero-content space-y-4">
+      <header className="max-w-[1440px] py-24 grid place-content-center m-auto text-center  px-[5%] ">
+        <div className="hero-content space-y-2">
           <h3>
             Welcome to <span className="text-sky-600">DevConfig</span>
           </h3>
-          <h1 className="text-5xl font-bold leading-tight  ">
+          <h1 className="text-5xl font-bold leading-tight ">
             Contest and <span className="text-sky-600">Internship</span> Program{" "}
             <br /> 
             <span id="Home_umber">2024</span>
@@ -151,11 +151,7 @@ export const Need_Assistance = () => {
           +91-123456789
         </Button>
 
-        <div className="social_media_links px-[5%] md:px-[10%] text-2xl flex space-x-4 justify-center">
-          <a href="">{<BsInstagram />}</a>
-          <a href="">{<BsFacebook />}</a>
-          <a href="">{<BsTwitter />}</a>
-        </div>
+       
       </section>
     </>
   );
