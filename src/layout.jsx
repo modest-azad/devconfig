@@ -5,7 +5,6 @@ import { Button } from "@nextui-org/react";
 import { NavLink } from "react-router-dom";
 import { MdMarkEmailUnread } from "react-icons/md";
 
-
 export const Layout = () => {
 
   return (
