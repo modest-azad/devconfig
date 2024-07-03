@@ -51,7 +51,7 @@ export const Hero_Section = () => {
     <>
       <header className="max-w-[1440px] py-24 grid place-content-center m-auto text-center  px-[5%] ">
         <div className="hero-content space-y-2">
-          <h3>
+          <h3 className="text-lg">
             Welcome to <span className="text-sky-600">DevConfig</span>
           </h3>
           <h1 className="text-5xl font-bold leading-tight ">
@@ -85,7 +85,7 @@ export const Contest_Overview = () => {
           </span>{" "}
           of the DevConfig Contest
         </h2>
-        <p>
+        <p className="text-lg">
           Our contest is specifically designed to challenge and showcase the
           skills of the participants. It is divided into three distinct
           challenges, each focusing on key areas of software development.
@@ -113,7 +113,7 @@ export const Intership_Overview = () => {
           </span>{" "}
           Program
         </h2>
-        <p>
+        <p className="text-lg">
           The DevConfig Internship Program offers a unique opportunity for the
           top 50 performers in the contest. These top talents will be selected
           based on the quality of their project submissions. We will evaluate
@@ -140,7 +140,7 @@ export const Need_Assistance = () => {
           </span>
           ? We&apos;re Here to Help
         </h2>
-        <p>
+        <p className="text-lg">
           At DevConfig, we believe in the power of support and guidance.
           We&apos;re committed to ensuring that your experience with us is
           smooth and enriching. If you have any queries or need assistance at

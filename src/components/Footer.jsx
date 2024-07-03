@@ -10,13 +10,13 @@ export function Footer() {
         <p className="text-[12px]">
         DevConfig 2024, ©Copyright reserved.
           <br />
-          Designed and Developed with <span className="text-red-600">❤</span> By {" "}
+          Maintained with <span className="text-red-600">❤</span> By {" "}
           <a
             className="font-semibold text-sky-600"
             target="_blank"
-            href="https://www.instagram.com/the_mdazad/"
+            href="#"
           >
-            Azad
+            DevConfig Team
           </a>
         </p>
         <div className="icons flex items-center space-x-4 text-2xl">

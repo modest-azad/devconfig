@@ -7,7 +7,7 @@ export const InternshipPage = () => {
         </div>     
       
         <div className="over-view space-y-2 max-sm:text-justify col-span-2">
-          <p>
+          <p className="text-lg">
             The DevConfig Internship Program offers a unique opportunity for the
             <span className="underline underline-offset-4">
               {" "}
@@ -29,7 +29,7 @@ export const InternshipPage = () => {
           <h2 className="text-xl font-semibold">
             <span className="text-sky-600 ">What you will do?</span>
           </h2>
-          <p className="text-justify">
+          <p className="text-justify text-lg">
             During the 3-month internship, participants will be exposed to
             various aspects of software designing and development, including but
             not limited to coding, debugging, software design, and project
@@ -42,7 +42,7 @@ export const InternshipPage = () => {
           <h2 className="text-xl font-semibold">
             <span className="text-sky-600 ">Future Benefits</span>
           </h2>
-          <p className="text-justify">
+          <p className="text-justify text-lg">
             Interns will also have the opportunity to work on live projects.
             This hands-on experience with real-world projects will enable them
             to understand the nuances of software development, including
