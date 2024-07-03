@@ -68,7 +68,7 @@ export const Hero_Section = () => {
       <header className="context max-w-[1440px] py-24 grid place-content-center m-auto text-center  px-[5%] ">
         <div className="hero-content space-y-2">
           <h3 className="text-lg">
-            Welcome to <span className="text-sky-600">DevConfig</span>
+           <span className="text-sky-600">DevConfig</span> presenting
           </h3>
           <h1 className="hero-heading leading-tight text-6xl ">
             Contest and <span className="text-sky-600">Internship</span> Program{" "}
