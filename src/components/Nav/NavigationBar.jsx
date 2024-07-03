@@ -1,12 +1,13 @@
 // eslint-disable-next-line no-unused-vars
 import { Button, Link, Navbar, NavbarBrand, NavbarMenu, NavbarContent, NavbarItem, NavbarMenuToggle } from "@nextui-org/react";
 import { NavLink } from "react-router-dom";
+import { useState } from "react";
 import ThemeSwitch from "../Theme/ThemeSwitch";
 
-
 export default function NavigationBar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <Navbar shouldHideOnScroll>
+    <Navbar isMenuOpen={isMenuOpen} shouldHideOnScroll>
       <NavbarContent>
         <NavbarBrand>
 
@@ -15,7 +16,7 @@ export default function NavigationBar() {
           </NavLink>
         </NavbarBrand>
 
-        <NavbarMenuToggle className="sm:hidden" />
+        <NavbarMenuToggle className="sm:hidden" onClick={() => { setIsMenuOpen(!isMenuOpen) }} />
       </NavbarContent>
 
       {/*Menu for Desktop*/}
@@ -54,37 +55,38 @@ export default function NavigationBar() {
         className={`items-center bg-transparent  space-y-4 text-xl justify-center md:hidden sm:flex `}
       >
         <NavbarItem>
-          <NavLink className="text-2xl " color="foreground" to={"/challanges"} >
+          <NavLink className="text-2xl " onClick={() => { setIsMenuOpen(!isMenuOpen) }} color="foreground" to={"/challanges"} >
             Challanges
           </NavLink>
         </NavbarItem>
 
         <NavbarItem>
-          <NavLink className="text-2xl " color="foreground" to={"/internship"} >
+          <NavLink className="text-2xl " onClick={() => { setIsMenuOpen(!isMenuOpen) }} color="foreground" to={"/internship"} >
             Internship
           </NavLink>
         </NavbarItem>
         <NavbarItem>
-          <NavLink className="text-2xl  " color="foreground" to={"/about"} >
+          <NavLink className="text-2xl " onClick={() => { setIsMenuOpen(!isMenuOpen) }} color="foreground" to={"/about"} >
             About us
           </NavLink>
         </NavbarItem>
 
         <NavbarItem>
-          <Button 
+          <Button
             as={NavLink}
             to="/Register"
             color="primary"
             radius="full"
             variant="flat"
             size="lg"
+            onClick={() => { setIsMenuOpen(!isMenuOpen) }}
           >
             Register Now
           </Button>
         </NavbarItem>
       </NavbarMenu>
       <span className="max-sm:hidden">
-      <ThemeSwitch/>
+        <ThemeSwitch />
       </span>
     </Navbar>
   );
