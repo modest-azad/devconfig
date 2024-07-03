@@ -11,9 +11,9 @@ export const Layout = () => {
   return (
     <div className="overflow-hidden space-y-8">
       <motion.div
-        initial={{ opacity: 0, y: -60 }}
+        initial={{ opacity: 0, y: 60 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 2 }}
         viewport={{ once: false, amount: 0 }}
       >
         <Hero_Section />
@@ -70,10 +70,10 @@ export const Hero_Section = () => {
           <h3 className="text-lg">
            <span className="text-sky-600">DevConfig</span> presenting
           </h3>
-          <h1 className="hero-heading leading-tight text-6xl ">
-            Contest and <span className="text-sky-600">Internship</span> Program{" "}
+          <h1 className="hero-heading tracking-tight  font-bold leading-tight text-6xl ">
+            Contest and <span className=" text-sky-600">Internship</span> Program{" "}
             <br />
-            <span className="font-black">2024</span>
+            2024
           </h1>
           {/* add google form link in button  */}
           <Button
