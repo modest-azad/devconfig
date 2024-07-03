@@ -148,8 +148,9 @@ export const Need_Assistance = () => {
           any step, please contact us
         </p>
 
-        <Button as={NavLink} variant="bordered" startContent={<MdMarkEmailUnread />}>
-          support.devconfig@gmail.com
+        <Button as={NavLink} size="lg" variant="bordered" startContent={<MdMarkEmailUnread />}>
+        <a href="mailto:support.devconfig@gmail.com">support.devconfig@gmail.com</a>
+         
         </Button>
 
        
