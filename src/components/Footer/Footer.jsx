@@ -1,4 +1,4 @@
-import ThemeSwitch from "./ThemeSwitch";
+import ThemeSwitch from "../Theme/ThemeSwitch";
 import { Divider } from "@nextui-org/react";
 import { FaInstagram, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 

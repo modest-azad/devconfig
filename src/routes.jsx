@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom";
 // Pages 
 import { Layout } from "./layout";
-import { ChallangesPage } from './pages/ChallangesPage.jsx';
-import { InternshipPage } from "./pages/InternshipPage.jsx";
-import { ProjectsPage } from "./pages/ProjectsPage.jsx";
-import { AboutPage } from "./pages/AboutPage.jsx";
+import { ChallangesPage } from './pages/ChallangesPage/ChallangesPage.jsx';
+import { InternshipPage } from "./pages/InternshipPage/InternshipPage.jsx";
+import { ProjectsPage } from "./pages/ProjectsPage/ProjectsPage.jsx";
+import { AboutPage } from "./pages/AboutPage/AboutPage.jsx";
 
 export default function Path() {
   return (

@@ -1,25 +1,25 @@
 /* eslint-disable react-refresh/only-export-components */
 // your root page
 import { motion } from "framer-motion";
-import { Button} from "@nextui-org/react";
+import { Button } from "@nextui-org/react";
 import { NavLink } from "react-router-dom";
-import { IoCall } from "react-icons/io5";
-import { BsInstagram,BsFacebook,BsTwitter } from "react-icons/bs";
 import { MdMarkEmailUnread } from "react-icons/md";
 
+
 export const Layout = () => {
+
   return (
     <div className="overflow-hidden space-y-8">
-      <motion.div 
-        initial={{ opacity: 0, y:-60}}
-        whileInView={{ opacity: 1, y:0 }}
-        transition={{ duration: 1,}}
+      <motion.div
+        initial={{ opacity: 0, y: -60 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
         viewport={{ once: false, amount: 0 }}
       >
         <Hero_Section />
       </motion.div>
-      
-      <motion.div 
+
+      <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0 }}
@@ -27,7 +27,7 @@ export const Layout = () => {
       >
         <Contest_Overview />
       </motion.div>
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0 }}
@@ -35,7 +35,7 @@ export const Layout = () => {
       >
         <Intership_Overview />
       </motion.div>
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0 }}
@@ -50,20 +50,34 @@ export const Layout = () => {
 export const Hero_Section = () => {
   return (
     <>
-      <header className="max-w-[1440px] py-24 grid place-content-center m-auto text-center  px-[5%] ">
+    {/*Hero Background Animation  */}
+    <div className="area" >
+            <ul className="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div >
+      <header className="context max-w-[1440px] py-24 grid place-content-center m-auto text-center  px-[5%] ">
         <div className="hero-content space-y-2">
           <h3 className="text-lg">
             Welcome to <span className="text-sky-600">DevConfig</span>
           </h3>
-          <h1 className="text-5xl font-bold leading-tight ">
+          <h1 className="hero-heading leading-tight text-6xl ">
             Contest and <span className="text-sky-600">Internship</span> Program{" "}
-            <br /> 
-            <span id="Home_umber">2024</span>
+            <br />
+            <span className="font-black">2024</span>
           </h1>
           {/* add google form link in button  */}
           <Button
-            className="bg-sky-600"
-            variant="shadow"
+            variant="bordered"
             radius="full"
             size="lg"
             color="primary"
@@ -119,7 +133,7 @@ export const Intership_Overview = () => {
           top 50 performers in the contest. These top talents will be selected
           based on the quality of their project submissions. We will evaluate
           the projects on several criteria including creativity, functionality,
-          and technical execution. The selected participants are offered a
+          and technical execution. The selected participants are offesky a
           3-month internship program with DevConfig.
         </p>
 
@@ -148,12 +162,15 @@ export const Need_Assistance = () => {
           any step, please contact us
         </p>
 
-        <Button as={NavLink} size="lg" variant="bordered" startContent={<MdMarkEmailUnread />}>
-        <a href="mailto:support.devconfig@gmail.com">support.devconfig@gmail.com</a>
-         
+        <Button
+          as={NavLink}
+          size="lg"
+          to="mailto:support.devconfig@gmail.com"
+          variant="bordered"
+          startContent={<MdMarkEmailUnread />}
+        >
+          support.devconfig@gmail.com
         </Button>
-
-       
       </section>
     </>
   );
