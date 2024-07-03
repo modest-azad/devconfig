@@ -1,7 +1,7 @@
 import { User, Link } from "@nextui-org/react";
 import { Need_Assistance } from "../layout";
 // icons
-import { BsTwitter,BsGithub,BsLinkedin,BsInstagram } from "react-icons/bs";
+import { BsTwitter, BsGithub, BsLinkedin, BsInstagram } from "react-icons/bs";
 
 export const AboutPage = () => {
   return (
@@ -9,7 +9,7 @@ export const AboutPage = () => {
       <div className="text-center text-4xl font-bold text-sky-600 underline underline-offset-4">
         DevConfig Members
       </div>
-      <div className="our_team  text-center flex max-sm:flex-col gap-6 justify-center ">
+      <div className="our_team  text-center flex max-sm:flex-col max-sm:items-start max-sm:w-[230px] max-sm:m-auto gap-6 justify-center ">
         <User
           className=" min-w-fit"
           name="Vikash Kumar"
