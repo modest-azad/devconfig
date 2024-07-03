@@ -5,6 +5,7 @@ import { Button} from "@nextui-org/react";
 import { NavLink } from "react-router-dom";
 import { IoCall } from "react-icons/io5";
 import { BsInstagram,BsFacebook,BsTwitter } from "react-icons/bs";
+import { MdMarkEmailUnread } from "react-icons/md";
 
 export const Layout = () => {
   return (
@@ -147,8 +148,8 @@ export const Need_Assistance = () => {
           any step, please contact us
         </p>
 
-        <Button as={NavLink} variant="bordered" startContent={<IoCall />}>
-          +91-123456789
+        <Button as={NavLink} variant="bordered" startContent={<MdMarkEmailUnread />}>
+          support.devconfig@gmail.com
         </Button>
 
        

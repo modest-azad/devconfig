@@ -23,7 +23,7 @@ export function Footer() {
           <a href="http://" target="_blank">
             <FaInstagram />
           </a>
-          <a href="http://" target="_blank">
+          <a href="https://www.linkedin.com/company/devconfig-pvt-ltd/" target="_blank">
             <FaLinkedinIn />
           </a>
           <a href="http://" target="_blank">
