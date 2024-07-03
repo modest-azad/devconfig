@@ -19,6 +19,9 @@ body{
 h1,h2,h3,h4,h5,h6{
   font-optical-sizing: auto;
 }
+.hero-heading{
+  font-family: 'montserrat alternates', sans-serif;
+}
 /* to hide visiblity of scroll bar  */
 /* ::-webkit-scrollbar{
   width: 0;
